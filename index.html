@@ -215,8 +215,8 @@
                             <div class="food-card-overlay"></div>
                             <div class="food-card-badge" v-if="item.badge">{{ item.badge }}</div>
                             <div class="food-card-rating">
-                                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                <span>{{ item.rating }}</span>
+                                <!-- <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <span>{{ item.rating }}</span> -->
                             </div>
                         </div>
                         <div class="food-card-body">
@@ -225,11 +225,11 @@
                             <p class="food-card-desc">{{ item.description }}</p>
                             <div class="food-card-footer">
                                 <div class="food-card-price">{{ item.price }} <span>ر.س</span></div>
-                                <button class="add-to-cart-btn" @click.stop="addToCart(item)">
+                                <!-- <button class="add-to-cart-btn" @click.stop="addToCart(item)">
                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M12 5v14M5 12h14"/>
                                     </svg>
-                                </button>
+                                </button> -->
                             </div>
                         </div>
                     </div>
